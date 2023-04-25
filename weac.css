@@ -1,0 +1,433 @@
+body{
+    background-image: linear-gradient(to right, rgb(164, 222, 237) , white);
+}
+
+button{
+    cursor: pointer;
+}
+
+
+.rectangle{
+    position: absolute;
+    width: 660px;
+    height: 290px;
+    left: 100px;
+    top: 180px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.rectangle .weather-app-text{
+margin-left: 170px;
+margin-top: 48px;
+width: 320px;
+height: 54px;
+left: 230px;
+top: 342px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+color: #4B77BE;
+}
+
+
+.rectangle #celcius .temperature{
+    font-family: 'Poppins';
+    position: absolute;
+    bottom: 60px;
+    margin-left: 260px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.rectangle .place{
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 216px;
+    color: #4B77BE;
+    margin-left: 182px;
+}
+
+.rectangle2{
+    position: absolute;
+    width: 660px;
+    height: 96px;
+    left: 100px;
+    top: 483px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.rectangle2 .enter{
+    font-size: 15px;
+    padding-left: 10px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    border-radius: 7px;
+}
+
+input[type="text" i] {
+    width: 392.5px;
+    height: 59px;
+}
+
+.rectangle2  #rec4button{
+    position: absolute;
+    width: 204px;
+    height: 64px;
+    left: 440px;
+    top: 15px;
+    background: #4B77BE;
+    border-radius: 5px;
+}
+
+.rectangle2  #rec4button .rectangle4-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+
+
+
+.pic .picf .outer{
+    position: absolute;
+left: 66.46%;
+right: 21.62%;
+top: 24.18%;
+bottom: 36.18%;
+background: #3F3D56;
+border-radius: 15px;
+}
+
+.pic .picf .outer .white-screen{
+    position: absolute;
+    left: 4%;
+    right: 4%;
+    top: 3%;
+    bottom: 3%;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.pic .circle{
+    position: absolute;
+    left: 67.5%;
+    right: 22.99%;
+    top: 28.3%;
+    bottom: 52.79%;
+    width: 151px;
+    height: 151px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+
+
+.pic .message-symbol{
+    position: absolute;
+left: 57.64%;
+right: 27.04%;
+top: 51.9%;
+bottom: 44.03%;
+border-radius:20px;
+background: #4B77BE;
+}
+
+.pic .message-line1{
+    position: absolute;
+    left: 59.51%;
+    right: 29.23%;
+    top: 53.12%;
+    bottom: 46.63%;
+    background: #FFFFFF;
+}
+
+
+.pic .message-line2{
+    position: absolute;
+    left: 59.51%;
+    right: 29.23%;
+    top: 54.08%;
+    bottom: 45.66%;
+    
+    background: #FFFFFF;
+}
+
+.pic .message-shadow{
+    position: absolute;
+left: 69.5%;
+right: 25.13%;
+top: 58.01%;
+bottom: 41.19%;
+border-radius: 40px;
+background: #F0F0F0;
+}
+
+.pic .sun{
+    position: absolute;
+    left: 71.75%;
+    right: 24.09%;
+    top: 31.83%;
+    bottom: 60.73%;
+    border-radius: 50%;
+    background: #FF6582;
+}
+
+
+
+.pic .cloud1{
+    position: absolute;
+    left: 71.95%;
+    right: 22.26%;
+    top: 35.9%;
+    bottom: 60.7%;
+    background: #E4E4E4;
+}
+
+
+.pic .cloud2{
+    position: absolute;
+    left: 66.15%;
+    right: 28.06%;
+    top: 40.4%;
+    bottom: 57.2%;
+    
+    background: #E4E4E4;
+}
+
+
+.pic .cloud3{
+    position: absolute;
+    left: 72.21%;
+    right: 24.78%;
+    top: 42.86%;
+    bottom: 54.89%;
+    
+    background: #E4E4E4;
+}
+
+.pic .bird1{
+    position: absolute;
+    left: 69.55%;
+    right: 29.69%;
+    top: 38.53%;
+    bottom: 60.84%;
+    
+    background: #3F3D56;
+}
+
+.pic .bird2{
+    position: absolute;
+    left: 74.15%;
+    right: 25.09%;
+    top: 40.95%;
+    bottom: 58.41%;
+    
+    background: #3F3D56;
+}
+
+.pic .bird3{
+    position: absolute;
+    left: 70.22%;
+    right: 29.02%;
+    top: 44.32%;
+    bottom: 55.04%;
+    
+    background: #3F3D56;
+}
+
+.pic .ground{
+    position: absolute;
+left: 80.3%;
+right: 4.19%;
+top: 69.75%;
+bottom: 30.13%;
+
+background: #CACACA;
+}
+
+
+.pic .hair{
+    position: absolute;
+left: 87.92%;
+right: 9.96%;
+top: 43.87%;
+bottom: 53.36%;
+border-radius: 14% 126% 126% 3%;
+background: #2F2E41;
+}
+
+
+.pic .face{
+    position: absolute;
+left: 87.76%;
+right: 10.23%;
+top: 44.57%;
+bottom: 52.6%;
+border-radius:56% 106% 76% 98%;
+background: #FFB6B6;
+}
+
+.pic .shirt{
+    position: absolute;
+left: 86.78%;
+right: 8.67%;
+top: 47.86%;
+bottom: 42.97%;
+border-radius: 36% 37% 40%;
+background: #4B77BE;
+}
+
+.pic .left-shoulder{
+    position: absolute;
+left: 86.51%;
+right: 12.24%;
+top: 49.24%;
+bottom: 47.78%;
+border-radius: 135% 106% 76% 98%;
+background: #4B77BE;
+}
+
+.pic .right-shoulder{
+    position: absolute;
+left: 90.6%;
+right: 8.19%;
+top: 49.1%;
+bottom: 47.61%;
+border-radius: 64% 227% 28% 98%;
+background: #4B77BE;
+}
+
+
+.pic .left-hand{
+    position: absolute;
+left: 86.23%;
+right: 12.37%;
+top: 51.44%;
+bottom: 41.41%;
+border-radius: 100% 87% 230% 34%;
+background: #FFB6B6;
+}
+
+
+.pic .right-hand{
+    position: absolute;
+left: 90.57%;
+right: 8.11%;
+top: 51.44%;
+bottom: 42.13%;
+border-radius: 206% 237% 492% 335%;
+background: #FFB6B6;
+}
+
+
+.pic .pant{
+    position: absolute;
+left: 86.78%;
+right: 8.98%;
+top: 55.85%;
+bottom: 38.26%;
+border-radius: 28% 28% 28% 27%;
+background: #2F2E41;
+}
+
+.pic .left-leg{
+    position: absolute;
+left: 87.34%;
+right: 11.27%;
+top: 61.4%;
+bottom: 30.76%;
+border-radius: 69% 170% 230% 40%;
+background: #FFB6B6;
+}
+
+.pic .right-leg{
+    position: absolute;
+left: 89.06%;
+right: 9.41%;
+top: 61.8%;
+bottom: 30.97%;
+    border-radius: 69% 170% 230% 40%;
+    background: #FFB6B6;
+}
+
+.pic .left-shoe{
+    position: absolute;
+left: 86.93%;
+right: 11.32%;
+top: 68.77%;
+bottom: 30.24%;
+border-radius: 242% 254% 8% 41%;
+background: #2F2E41;
+}
+
+.pic .right-shoe{
+    position: absolute;
+left: 89.05%;
+right: 9.2%;
+top: 68.4%;
+bottom: 30.24%;
+border-radius: 103% 122% 5% 63%;
+background: #2F2E41;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    body{
+        background-image: linear-gradient(to bottom,  rgb(164, 222, 237), transparent);
+        background-repeat: no-repeat;
+        background-size: 500% 1000px;
+    }
+
+
+.rectangle {
+    position: absolute;
+    width: 630px;
+    height: 290px;
+    left: 8px;
+    top: 52px;
+    right: 17px;
+    background: #FFFFFF;
+    /* line-height: normal; */
+    border-radius: 10px;
+}
+
+    
+    
+    .rectangle2 {
+        position: absolute;
+        width: 630px;
+        height: 96px;
+        left: 6px;
+        top: 357px;
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .rectangle2 #rec4button {
+        
+        width: 178px;
+    }
+    
+    .pic {
+        position: absolute;
+        width: 1409px;
+        height: 815px;
+        left: -760px;
+        top: 400px;
+    }
+
+}
